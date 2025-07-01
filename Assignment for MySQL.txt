@@ -1,0 +1,104 @@
+Problem 1:
+
+Create a database named CHICAGO in MySQL.
+
+
+Problem 2:
+
+Use the links below to read the data files and download them in CSV format.
+
+Chicago_Census_Data.CSV
+
+https://data.cityofchicago.org/Health-Human-Services/Census-Data-Selected-socioeconomic-indicators-in-C/kn9c-c2s2
+
+
+Chicago_Public_Schools.CSV
+
+https://data.cityofchicago.org/Education/Chicago-Public-Schools-Progress-Report-Cards-2011-/9xs2-f89t
+
+
+Chicago_Crime_Data.CSV
+
+https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2
+
+Problem 3:
+
+To analyze the data using SQL, it first needs to be loaded into MySQL database. We will create three tables in as under:
+
+CENSUS_DATA
+CHICAGO_PUBLIC_SCHOOLS
+CHICAGO_CRIME_DATA
+
+Create the scripts to load the above mentioned CSV Files to MySQL Table names given in CHICAGO database.
+
+Problem 4:
+
+Find the total number of crimes recorded in the CRIME table.
+
+Problem 5:
+
+List community area names and numbers with per capita income less than 11000.
+
+Problem 6:
+
+List all case numbers for crimes involving minors?(children are not considered minors for the purposes of crime analysis)¶
+
+Problem 7:
+
+List all kidnapping crimes involving a child?¶
+
+Problem 8:
+
+List the kind of crimes that were recorded at schools. (No repetitions)
+
+Problem 9:
+
+List the type of schools along with the average safety score for each type.
+
+Problem 10:
+
+List 5 community areas with highest % of households below poverty line
+
+Problem 11:
+
+Which community area is most crime prone? Display the coumminty area number only.
+
+Problem 12:
+
+Use a sub-query to find the name of the community area with highest hardship index
+
+Problem 13:
+
+Use a sub-query to determine the Community Area Name with most number of crimes?
+
+Problem 14:
+
+Find the total number of arrests from 2008 to 2012 in each community area along with the community area's name.
+
+Problem 15:
+
+Get the average per capita income for the top 5 community areas with the highest number of school enrollments.
+
+Problem 16: 
+
+List all schools and their corresponding arrest counts in their community area. Include schools even if there were no arrests.
+
+Problem 17:
+
+Find the community areas with per capita income less than $20,000 and more than 100 arrests between 2008 and 2012.
+
+Problem 18:
+
+Write a script to export your database from MySQL.
+
+Problem 19:
+
+Write a script to export your database from MySQL to PostgreSQL.
+
+OR
+
+Write a script to import the same database, tables in PostgreSQL.
+
+Problem 20:
+
+Run the scripts created from Problem 4 to Problem 17 in PostgreSQL and check if they run. 
